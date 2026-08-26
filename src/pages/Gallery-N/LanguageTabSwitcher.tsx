@@ -2,6 +2,7 @@ import { GalleryContext } from '.'
 import codeFlag from '@/assets/flags/code.png'
 import deFlag from '@/assets/flags/de.png'
 import enFlag from '@/assets/flags/en.png'
+import esFlag from '@/assets/flags/es.png'
 import idFlag from '@/assets/flags/id.png'
 import itFlag from '@/assets/flags/it.png'
 import jpFlag from '@/assets/flags/ja.png'
@@ -27,6 +28,7 @@ const options: LanguageTabOption[] = [
   { id: 'pl', name: '波兰语', flag: plFlag },
   { id: 'ko', name: '韩语', flag: koFlag },
   { id: 'it', name: '意大利语', flag: itFlag },
+  { id: 'es', name: '西班牙语', flag: esFlag },
   { id: 'code', name: 'Code', flag: codeFlag },
 ]
 
@@ -45,7 +47,7 @@ export function LanguageTabSwitcher() {
 
   return (
     <RadioGroup value={state.currentLanguageTab} onChange={onChangeTab}>
-      <div className="flex items-center space-x-4">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
         {options.map((option) => (
           <RadioGroup.Option key={option.id} value={option.id} className="cursor-pointer">
             {({ checked }) => (

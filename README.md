@@ -221,6 +221,7 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 - 哈萨克语基础 3000 词(哈拼版) 来源于 [@Elgar](https://github.com/Elgar17) 由 [@Herbert He](https://github.com/HerbertHe) 通过 [哈拼](https://ha-pin.js.org) 技术支持
 - 波兰语常用词。说明见 [docs/dicts/polish.md](docs/dicts/polish.md)
 - 新视线意大利语 A1–A2。说明见 [docs/dicts/xinshixian-italian.md](docs/dicts/xinshixian-italian.md)
+- 西班牙语高频 5000。说明见 [docs/dicts/spanish-frequency-5000.md](docs/dicts/spanish-frequency-5000.md)
 
 如果您需要背诵其他词库，欢迎在 Issue 中提出
 
