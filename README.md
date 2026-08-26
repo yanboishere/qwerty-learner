@@ -1,3 +1,10 @@
+# 此Fork项目是因为 @kaiyi 本人沉浸于Ai无法自拔，没时间去看新的PR，推荐我fork QWERTY 项目进行自修改和部署去增加新语言和词库 而来。
+
+<img width="1142" height="454" alt="截屏2026-08-26 上午11 23 30" src="https://github.com/user-attachments/assets/ff995b3f-2dfb-421d-8f84-17d06b2cdcae" />
+
+
+---
+
 <div align=center>
 <img  src="src/assets/logo.svg"/>
 </div>
