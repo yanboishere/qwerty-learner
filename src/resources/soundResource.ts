@@ -145,4 +145,13 @@ export const LANG_PRON_MAP: LanguagePronunciationMap = {
       },
     ],
   },
+  it: {
+    defaultPronIndex: 0,
+    pronunciation: [
+      {
+        name: '意大利语',
+        pron: 'it',
+      },
+    ],
+  },
 }

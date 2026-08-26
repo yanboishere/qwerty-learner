@@ -3,6 +3,7 @@ import codeFlag from '@/assets/flags/code.png'
 import deFlag from '@/assets/flags/de.png'
 import enFlag from '@/assets/flags/en.png'
 import idFlag from '@/assets/flags/id.png'
+import itFlag from '@/assets/flags/it.png'
 import jpFlag from '@/assets/flags/ja.png'
 import kkFlag from '@/assets/flags/kk.png'
 import koFlag from '@/assets/flags/ko.png'
@@ -25,6 +26,7 @@ const options: LanguageTabOption[] = [
   { id: 'id', name: '印尼语', flag: idFlag },
   { id: 'pl', name: '波兰语', flag: plFlag },
   { id: 'ko', name: '韩语', flag: koFlag },
+  { id: 'it', name: '意大利语', flag: itFlag },
   { id: 'code', name: 'Code', flag: codeFlag },
 ]
 

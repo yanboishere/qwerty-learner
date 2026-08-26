@@ -220,6 +220,7 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 - 延世韩国语 1–6 册（初级 / 中级 / 高级）。说明见 [docs/dicts/yonsei-korean.md](docs/dicts/yonsei-korean.md)
 - 哈萨克语基础 3000 词(哈拼版) 来源于 [@Elgar](https://github.com/Elgar17) 由 [@Herbert He](https://github.com/HerbertHe) 通过 [哈拼](https://ha-pin.js.org) 技术支持
 - 波兰语常用词。说明见 [docs/dicts/polish.md](docs/dicts/polish.md)
+- 新视线意大利语 A1–A2。说明见 [docs/dicts/xinshixian-italian.md](docs/dicts/xinshixian-italian.md)
 
 如果您需要背诵其他词库，欢迎在 Issue 中提出
 

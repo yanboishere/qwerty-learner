@@ -33,6 +33,8 @@ export function generateWordSoundSrc(word: string, pronunciation: Exclude<Pronun
       return `${pronunciationApi}${word}&le=pl`
     case 'ko':
       return `${pronunciationApi}${word}&le=ko`
+    case 'it':
+      return `${pronunciationApi}${word}&le=it`
     default:
       return ''
   }
