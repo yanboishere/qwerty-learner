@@ -4170,6 +4170,76 @@ const polishDicts: DictionaryResource[] = [
   },
 ]
 
+// 韩语词典（《延世韩国语》1-6 册）
+const koreanDicts: DictionaryResource[] = [
+  {
+    id: 'yonsei-korean-1',
+    name: '延世韩国语 1',
+    description: '《延世韩国语》第 1 册，初级。词条整理自 Open Yonsei Korean Vocabulary（CC BY-SA 3.0）',
+    category: '韩语学习',
+    tags: ['初级'],
+    url: '/dicts/YonseiKorean1.json',
+    length: 989,
+    language: 'ko',
+    languageCategory: 'ko',
+  },
+  {
+    id: 'yonsei-korean-2',
+    name: '延世韩国语 2',
+    description: '《延世韩国语》第 2 册，初级。词条整理自 Open Yonsei Korean Vocabulary（CC BY-SA 3.0）',
+    category: '韩语学习',
+    tags: ['初级'],
+    url: '/dicts/YonseiKorean2.json',
+    length: 872,
+    language: 'ko',
+    languageCategory: 'ko',
+  },
+  {
+    id: 'yonsei-korean-3',
+    name: '延世韩国语 3',
+    description: '《延世韩国语》第 3 册，中级。词条整理自 Open Yonsei Korean Vocabulary（CC BY-SA 3.0）',
+    category: '韩语学习',
+    tags: ['中级'],
+    url: '/dicts/YonseiKorean3.json',
+    length: 604,
+    language: 'ko',
+    languageCategory: 'ko',
+  },
+  {
+    id: 'yonsei-korean-4',
+    name: '延世韩国语 4',
+    description: '《延世韩国语》第 4 册，中级。词条整理自 Open Yonsei Korean Vocabulary（CC BY-SA 3.0）',
+    category: '韩语学习',
+    tags: ['中级'],
+    url: '/dicts/YonseiKorean4.json',
+    length: 556,
+    language: 'ko',
+    languageCategory: 'ko',
+  },
+  {
+    id: 'yonsei-korean-5',
+    name: '延世韩国语 5',
+    description: '《延世韩国语》第 5 册，高级。词条整理自 Open Yonsei Korean Vocabulary（CC BY-SA 3.0）',
+    category: '韩语学习',
+    tags: ['高级'],
+    url: '/dicts/YonseiKorean5.json',
+    length: 855,
+    language: 'ko',
+    languageCategory: 'ko',
+  },
+  {
+    id: 'yonsei-korean-6',
+    name: '延世韩国语 6',
+    description: '《延世韩国语》第 6 册，高级。词条整理自 Open Yonsei Korean Vocabulary（CC BY-SA 3.0）',
+    category: '韩语学习',
+    tags: ['高级'],
+    url: '/dicts/YonseiKorean6.json',
+    length: 477,
+    language: 'ko',
+    languageCategory: 'ko',
+  },
+]
+
 /**
  * Built-in dictionaries in an array.
  * Why arrays? Because it keeps the order across browsers.
@@ -4184,6 +4254,7 @@ export const dictionaryResources: DictionaryResource[] = [
   ...kazakhHapinDicts,
   ...indonesianDicts,
   ...polishDicts,
+  ...koreanDicts,
 
   // {
   //   id: 'zhtest',

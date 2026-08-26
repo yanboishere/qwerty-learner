@@ -5,6 +5,7 @@ import enFlag from '@/assets/flags/en.png'
 import idFlag from '@/assets/flags/id.png'
 import jpFlag from '@/assets/flags/ja.png'
 import kkFlag from '@/assets/flags/kk.png'
+import koFlag from '@/assets/flags/ko.png'
 import plFlag from '@/assets/flags/pl.png'
 import type { LanguageCategoryType } from '@/typings'
 import { RadioGroup } from '@headlessui/react'
@@ -23,6 +24,7 @@ const options: LanguageTabOption[] = [
   { id: 'kk', name: '哈萨克语', flag: kkFlag },
   { id: 'id', name: '印尼语', flag: idFlag },
   { id: 'pl', name: '波兰语', flag: plFlag },
+  { id: 'ko', name: '韩语', flag: koFlag },
   { id: 'code', name: 'Code', flag: codeFlag },
 ]
 
